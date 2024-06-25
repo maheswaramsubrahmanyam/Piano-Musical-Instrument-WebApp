@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Piano Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <div class="container">
+        <div class="intro-container">
+            <h1>Piano musical instrument</h1>
+            <h3>This is a 24 Key Piano. Click any piano key to play the sound.</h3>
+        </div>
+        <div class="piano-container">
+            <ul class="piano-keys-list">
+                <li onclick="playSound('C')" class="piano-keys white-key" data-list="C"></li>
+                <li onclick="playSound('CC')" class="piano-keys black-key" data-list="CC"></li>
+                <li onclick="playSound('D')" class="piano-keys white-key" data-list="D"></li>
+                <li onclick="playSound('DD')" class="piano-keys black-key" data-list="DD"></li>
+                <li onclick="playSound('E')" class="piano-keys white-key" data-list="E"></li>
+                <li onclick="playSound('F')" class="piano-keys white-key" data-list="F"></li>
+                <li onclick="playSound('FF')" class="piano-keys black-key" data-list="FF"></li>
+                <li onclick="playSound('G')" class="piano-keys white-key" data-list="G"></li>
+                <li onclick="playSound('GG')" class="piano-keys black-key" data-list="GG"></li>
+                <li onclick="playSound('A')" class="piano-keys white-key" data-list="A"></li>
+                <li onclick="playSound('AA')" class="piano-keys black-key" data-list="AA"></li>
+                <li onclick="playSound('B')" class="piano-keys white-key" data-list="B"></li>
+                <li onclick="playSound('C2')" class="piano-keys white-key" data-list="C2"></li>
+                <!-- Add more keys as needed -->
+            </ul>
+        </div>
+    </div>
+    <footer class="footer-section">
+        
+            <p class="paragraph">Developed by <a href="https://www.linkedin.com/in/maheswaram-subrahmanyam-361238275/">Maheswaram Subrahmanyam</a></p>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
